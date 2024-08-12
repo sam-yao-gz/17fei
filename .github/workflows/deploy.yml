@@ -29,6 +29,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "sam-yao-gz-17fei-47"
+          project: "sam-yao-gz-17fei-65"
           entrypoint: "main.ts"
           root: "."
