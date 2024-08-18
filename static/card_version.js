@@ -6,11 +6,11 @@ window.changeVersion = (card_version) => {
     location.href = "/card"
     return
   }
-  if (!vip) {
-    alert('会员私密空间')
-    location.href = '/about'
-    return
-  }
+  // if (!vip) {
+  //   alert('会员私密空间')
+  //   location.href = '/about'
+  //   return
+  // }
 
 
   localStorage.setItem('card_version', card_version)

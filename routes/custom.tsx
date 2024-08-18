@@ -1,6 +1,6 @@
 export default function Custom() {
   return (
-    <div class="text-shadow min-h-screen w-full bg-pink-300 p-2 text-lg leading-8 text-red-100">
+    <div class="text-shadow min-h-screen w-full bg-yellow-300 p-2 text-lg leading-8 text-red-100">
       <div class="mx-auto flex max-w-screen-md flex-col items-center justify-center">
         <div class="flex w-full items-center p-2">
           <a class="flex-1" href="/">

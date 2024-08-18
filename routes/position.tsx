@@ -11,7 +11,7 @@ export default function Card() {
         <script src="/positions.js"></script>
         <title>情趣姿势卡牌游戏</title>
       </Head>
-      <div class="w-full leading-8 min-h-screen text-shadow bg-pink-400 text-lg text-red-100">
+      <div class="w-full leading-8 min-h-screen text-shadow bg-yellow-400 text-lg text-red-100">
         <div class="max-w-screen-md mx-auto ">
           <div class="p-2 flex items-center w-full">
             <a class="flex-1" href="/">
@@ -25,7 +25,7 @@ export default function Card() {
                 <div class="cardRandom h-full flex flex-col items-center">
 
                   <div class="flex-1"></div>
-                  <div class="relative p-4 flex-auto font-black text-3xl text-pink-600">
+                  <div class="relative p-4 flex-auto font-black text-3xl text-yellow-600">
                     <img src="" class="w-full" id="position" />
                   </div>
                   <div class="flex-1"></div>
@@ -35,7 +35,7 @@ export default function Card() {
           </div>
           <div class="text-center">抽一个试试（共<span id="position-count">10</span>个姿势）</div>
           <div class="text-center mt-2" id="goabout">
-            <a href="/about" class="border bg-pink-600 px-4 py-2 rounded text-center" >解锁100个姿势</a>
+            <a href="/about" class="border bg-yellow-600 px-4 py-2 rounded text-center" >解锁100个姿势</a>
           </div>
         </div>
       </div>

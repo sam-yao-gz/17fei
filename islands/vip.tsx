@@ -9,19 +9,20 @@ interface Props {
 }
 
 export default function VipIsland({ children }: Props) {
-   useEffect(()=>{
+  useEffect(() => {
+    console.log(123);
 
-    if(IS_BROWSER){
-      localStorage.setItem('lockVip', JSON.stringify({"type":"boolean","data":true}));
+    if (IS_BROWSER) {
+      localStorage.setItem('lockVip', JSON.stringify({ "type": "boolean", "data": true }));
       localStorage.setItem('vip', true);
       location.href = '/'
     }
-      return ()=>{}
-   },[])
+    return () => { }
+  }, [])
 
   return (
     <div>
-       ...
+      ...
     </div>
   );
 }

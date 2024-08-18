@@ -12,7 +12,7 @@ export default function Card() {
         <script src="/card.js"></script>
         <title>情趣任务卡牌游戏</title>
       </Head>
-      <div class="w-full leading-8 min-h-screen text-shadow bg-pink-400 text-lg text-red-100">
+      <div class="w-full leading-8 min-h-screen text-shadow bg-yellow-400 text-lg text-red-100">
         <div class="max-w-screen-md mx-auto ">
           <div class="p-2 flex items-center w-full">
             <a class="flex-1" href="/">
@@ -20,7 +20,7 @@ export default function Card() {
             </a>
             <div class="flex-auto text-center" ><span id="title">基础版</span>任务卡牌</div>
             <div class="flex-1 text-right" >
-              <a class="p-2 bg-pink-600 border text-sm whitespace-nobreak rounded" href="/card_version">选择版本</a>
+              <a class="p-2 bg-yellow-600 border text-sm whitespace-nobreak rounded" href="/card_version">选择版本</a>
             </div>
           </div>
           <div class="flex my-4 justify-center">
@@ -29,7 +29,7 @@ export default function Card() {
               <div class="cardWrapper ">
                 <div class="cardRandom h-full flex flex-col items-center">
                   <div class="flex-1"></div>
-                  <div id="content" style="writing-mode: vertical-rl" class="p-4 flex-auto font-black text-3xl text-pink-600">
+                  <div id="content" style="writing-mode: vertical-rl" class="p-4 flex-auto font-black text-3xl text-yellow-600">
                   </div>
                   <div class="flex-1"></div>
                 </div>
